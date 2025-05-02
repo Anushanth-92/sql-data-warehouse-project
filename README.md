@@ -80,4 +80,24 @@ These reports support strategic, data-driven decision-making.
 ---
 
 ## 📂 Repository Structure
-
+data-warehouse-project/
+│
+├── datasets/ # Raw ERP and CRM data
+├── docs/ # Project documentation and diagrams
+│ ├── etl.drawio
+│ ├── data_architecture.drawio
+│ ├── data_catalog.md
+│ ├── data_flow.drawio
+│ ├── data_models.drawio
+│ ├── naming-conventions.md
+│
+├── scripts/ # SQL scripts by Medallion layer
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+│
+├── tests/ # Data quality checks and validations
+├── README.md # Project overview (this file)
+├── LICENSE # License file
+├── .gitignore # Git ignore rules
+└── requirements.txt # Dependencies (if any)
